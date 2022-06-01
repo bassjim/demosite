@@ -1,0 +1,35 @@
+﻿.breadcrumb {
+    background-color: #90bee0;
+    border-radius: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 0.25rem;
+    color: #4800ff;
+    content: ">";
+}
+
+.breadcrumb-item.active {
+    color: #ff0000;
+}
+
+
+.jumbotron {
+    background-image: url('../photo/00.jpg');
+    background-repeat: round;
+}
+
+.FontTitle {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-family: 微軟正黑體;
+    font-weight: 900;
+}
+
+.FontStyle2 {
+    font-size: 2rem;
+}
+
+.FontStyle4 {
+    font-size: 4rem;
+}
